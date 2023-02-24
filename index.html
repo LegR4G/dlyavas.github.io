@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+
+<html lang="ru">
+<head>
+	<title>Для Вас</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="favicon.png">
+</head>
+
+<body>
+		
+		<div class="slideshou">
+	<style>
+	body {
+		font-family: SF UI Display;
+background-color: dodgerblue;
+text-align: center;
+	}
+	
+	
+	#slideshow {
+		overflow: hidden;
+		height: 100px;
+		width: 728px;
+		margin: 0 auto;
+	}
+	
+	
+	.slide {
+		float: left;
+		        height: 100px;
+        width: 728px;
+	}
+	
+	
+	.slide-wrapper {		
+
+		width: calc(728px * 4);		
+
+		animation: slide 10s ease infinite;
+	}
+
+	
+	@keyframes slide {
+		
+
+		40% {
+			margin-left: 0px;
+		}
+		60% {
+			margin-left: calc(-728px * 1);
+		}
+		80% {
+			margin-left: calc(-728px * 2);
+		}
+	}
+	</style>
+	
+	<div id="slideshow">
+		<div class="slide-wrapper">
+			
+			<div class="slide">
+				<h1 class="slide-number">
+					 Наш сайт обновляется два раза в неделю. 
+				</h1>
+			</div>
+			<div class="slide">
+				<h1 class="slide-number">
+					 Поэтому вы можете
+				</h1>
+			</div>
+			<div class="slide">
+				<h1 class="slide-number">
+					 подписаться на наш YouTube канал. <br> <a href="https://youtube.com/@foryou_multura"> @foryou_multura</a> 
+				</h1>
+			</div>	
+			</div>
+		</div>
+	</div>
+</div>
+
+<h1>Для Вас / multura</h1>
+
+
+<div class="text">
+<h3>Видео сервиса Для Вас!</h2>
+</div>
+
+<div class="video1">
+	<video src="video/multura-news14.mp4" allow="picture-in-picture" controls poster="poster/news.png" width="560" height="315" title="выпуск от 14 февраля"></video>
+</div>
+
+<div class="video2">
+	<video src="video/multura-news15.mp4" allow="picture-in-picture" controls poster="poster/news.png" width="560" height="315" title="выпуск от 15 февраля"></video>
+</div>
+
+<div class="video3">
+	<video src="video/strannaya-shkola.mp4" allow="picture-in-picture" controls poster="poster/stranger-school.png" width="560" height="315" title="серия 1"></video>
+</div><br>
+
+<footer>
+	Сайт сделан с <img src="emoji/love.png" height="18" width="18"> от <a href="https://youtube.com/@miltura">Милтуры</a>
+</footer><br>
+</body>
+</html>
